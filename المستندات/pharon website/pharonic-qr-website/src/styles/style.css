@@ -1,0 +1,42 @@
+body {
+    background-color: #f4e1b1; /* Light sand color */
+    font-family: 'Papyrus', cursive; /* Pharaonic style font */
+    color: #4b3d2e; /* Dark brown color for text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c2a76b; /* Gold color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #8b6f4e; /* Shadow effect */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.qr-code {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #4b3d2e; /* Dark brown border */
+    background-color: #fff; /* White background for QR code */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+footer {
+    background-color: #c2a76b; /* Gold color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
